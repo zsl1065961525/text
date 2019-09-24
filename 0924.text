@@ -17,7 +17,7 @@
    querySelectorAll()可以找到全部的元素
 
 4.如何给元素div内增加一个子元素<a href="#">去百度</a>?
-答:var div = document.getElementsByTagName('div');
+答:var div = document.getElementById('mydiv');
    div.innerHTML ='<a href="#">去百度</a>' ;
 
 5.<div class="box red">,在css中box类设定了宽度和高度,red类设定了div的背景颜色.如何通过改变类名blue改变背景颜色,请写出代码?
