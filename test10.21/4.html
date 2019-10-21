@@ -10,7 +10,8 @@
 		<script type="text/javascript">
 			 var img = document.getElementById('img') 
 		     var h4 = document.getElementById('h4')
-		     console.log(img.location)
+		     var src = img.src
+		     h4.innerHTML = src.substr(0,59)
 		</script>
 	</body>
 </html>
