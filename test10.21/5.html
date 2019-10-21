@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1 id="h1">abcd</h1>
+		<input type="text" name="inp" id="inp" value="" />
+		<button id="but">验证</button>
+		<h5 id="h5"></h5>
+		<script type="text/javascript">
+			var h5 = document.getElementById('h5')
+			var inp = document.getElementById('inp')
+			var inpv = inp.value
+			var but = document.getElementById('but')
+			var h1 = document.getElementById('h1')
+			but.onclick  = function(){
+				if (inpv.toLowerCase = h1 ){
+					h5.innerHTML = '验证正确'
+				}else if(inpv.toUpperCase()= h1 ){
+					h5.innerHTML = '验证正确'
+				}else{
+					h5.innerHTML = '验证错误'
+				}
+			}
+			
+		</script>
+	</body>
+</html>
